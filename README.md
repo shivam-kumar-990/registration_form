@@ -25,3 +25,58 @@
         </form>
 </body>
 </html>
+    
+    #css_code
+
+    *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: url('./bg.jpg'); no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.registration-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:350px;
+}
+.registration-form h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.registration-form p{
+    font-size: 20px;
+    margin: 5px 0;
+    border-radius: 0%;
+
+}
+.registration-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+.registration-form buttton{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 8px 8px;
+    width: 40%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+    border-radius: 0%;
+
+}
+.registration-form button:hover{
+    color: red;
+}
